@@ -20,7 +20,7 @@ export default function Project1() {
     }, [running])
     return (
         <div className='flex flex-col items-center justify-center py-8'>
-            <h1>01 - Project Stop Watch</h1>
+            <h1>01 - Project Stop Watch Mini</h1>
             <div>
                 <span>{('0' + Math.floor((time / 6000) % 60)).slice(-2)}:</span>
                 <span>{('0' + Math.floor((time / 1000) % 60)).slice(-2)}:</span>
