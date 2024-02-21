@@ -1,7 +1,7 @@
 const Navbar = () => {
     return (
         <nav className="navbar">
-            <h1>React Blog</h1>
+            <h1>CSS CAD Library</h1>
             <div className="links">
                 <a href="/" alt="">Home</a>
                 <a href="/create" alt="" style={{
@@ -10,7 +10,7 @@ const Navbar = () => {
                     borderRadius: "8px",
                     padding: "8px",
                     cursor: 'pointer'
-                }}>New Blog</a>
+                }}>New details</a>
             </div>
         </nav>
     );
