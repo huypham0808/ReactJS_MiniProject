@@ -1,14 +1,16 @@
 import './App.css';
-import Project1 from './Project1/Project1';
-import Project2 from './Project2/Project2';
+import Navbar from './Components/CpnWriteBlog/Navbar';
+import Home from './Components/CpnWriteBlog/Home';
+
 
 function App() {
     return (
-        <>
-            <Project1 />
-            <hr/>
-            <Project2/>
-        </>
+        <div className='App text-center'>
+            <Navbar />
+            <div className="content">
+                <Home />
+            </div>
+        </div>
     );
 }
 

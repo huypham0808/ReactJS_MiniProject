@@ -7,7 +7,6 @@ import { useEffect } from 'react'
 function Project2() {
     const [taskList, setTaskList] = useState([]);
     const [loaded, setLoaded] = useState(false);
-    //console.log(taskList)
     useEffect(() => {
         const storedTaskList = JSON.parse(localStorage.getItem('taskList'));
         if (storedTaskList) {
