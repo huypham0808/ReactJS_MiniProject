@@ -38,3 +38,26 @@ body {
   border-radius: 8px;
   margin-left: 5px;
 }
+.blog-detail h2 {
+  font-size: 20px;
+  color: #087ea4;
+  margin-bottom: 10px;
+}
+.blog-detail{
+  text-align: left;
+  max-width: 600px;
+  padding: 10px;
+  margin: 10px auto;
+  border: 1px solid #087ea4;
+}
+.form-card {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+.form-text-area {
+  outline: 1px solid #087ea4;
+  border-radius: 8px;
+  padding: 5px;
+}
