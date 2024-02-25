@@ -3,6 +3,7 @@ import Navbar from './Components/CpnWriteBlog/Navbar';
 import Home from './Components/CpnWriteBlog/Home';
 import Creat from './Components/CpnWriteBlog/Creat';
 import BlogDetail from './Components/CpnWriteBlog/BlogDetail';
+import NotFound from './Components/CpnWriteBlog/PageNotFound';
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
@@ -17,6 +18,7 @@ function App() {
                         <Route path='/' element={<Home />} />
                         <Route path='/create' element={<Creat />} />
                         <Route path='/blogs/:id' element={<BlogDetail />} />
+                        <Route path='*' element={<NotFound />} />
                     </Routes>
                 </div>
             </div>
