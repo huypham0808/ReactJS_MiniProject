@@ -23,42 +23,6 @@
       "body": "Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Libero dolorum amet quam tenetur doloribus itaque quas praesentium. Voluptas, quas dolores.",
       "author": "maria",
       "id": 4
-    },
-    {
-      "title": "Blog 100",
-      "body": "Test blog 100",
-      "author": "Maria",
-      "id": 5
-    },
-    {
-      "title": "Blog 200",
-      "body": "This is my blog 200",
-      "author": "Select author",
-      "id": 6
-    },
-    {
-      "title": "Titile 700",
-      "body": "This is body",
-      "author": "Maria",
-      "id": 7
-    },
-    {
-      "title": "Please input title",
-      "body": "Please input description for detail",
-      "author": "Select author",
-      "id": 8
-    },
-    {
-      "title": "Title 800",
-      "body": "Body 800",
-      "author": "Andrew",
-      "id": 9
-    },
-    {
-      "title": "asas",
-      "body": "sasSasAS",
-      "author": "",
-      "id": 10
     }
   ]
 }
